@@ -9,7 +9,8 @@ import { MainComponent } from './navegacao/main/main.component';
 import { FooterComponent } from './navegacao/footer/footer.component';
 import { SobreComponent } from './institucional/sobre/sobre.component';
 import { ContatoComponent } from './institucional/contato/contato.component';
-import { rootRouterConfig} from './app.routes'
+import { rootRouterConfig} from './app.routes';
+import { ProdutosComponent } from './produtos/lista-produtos.component'
 
 
 
@@ -21,6 +22,7 @@ import { rootRouterConfig} from './app.routes'
     FooterComponent,
     SobreComponent,
     ContatoComponent,
+    ProdutosComponent,
     
   ],
   imports: [
