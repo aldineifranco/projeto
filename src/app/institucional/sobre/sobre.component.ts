@@ -2,13 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-sobre',
-  template: `
-    <p>
-      sobre works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './sobre.component.html',
+  styleUrls: ['./sobre.component.css'],
 })
 export class SobreComponent implements OnInit {
 

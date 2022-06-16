@@ -1,0 +1,69 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "mouse Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.png"
+        },
+        {
+            "id": 1,
+            "nome": "Teclado Microsoft",
+            "valor": 51.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "teclado.jpg"
+        },
+        {
+            "id": 1,
+            "nome": "monitor AOC 23 polegadas",
+            "valor": 845.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "monitorAOC.jpg"
+        },
+        {
+            "id": 1,
+            "nome": "Webcam USB Full",
+            "valor": 89.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "webcamHD.jpg"
+        },
+        {
+            "id": 1,
+            "nome": "suporte para Monitor",
+            "valor": 129.90,
+            "promocao": true,
+            "valorPromo": 99.90,
+            "imagem": "suporteMonitor.jpg"
+        },
+        {
+            "id": 1,
+            "nome": "Cadeira gamer Alpha",
+            "valor": 499.90,
+            "promocao": true,
+            "valorPromo": 399.90,
+            "imagem": "cadeira-gamer-alpha.jpg"
+        },
+        {
+            "id": 1,
+            "nome": "Óculos 3D Gamer",
+            "valor": 399.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "oculos3D.jpg"
+        },
+        {
+            "id": 1,
+            "nome": "headSet gamer",
+            "valor": 259.89,
+            "promocao": true,
+            "valorPromo": 199.89,
+            "imagem": "headset.jpg"
+        }
+        
+    ]
+}
