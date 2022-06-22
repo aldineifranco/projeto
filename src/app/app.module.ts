@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { APP_BASE_HREF} from '@angular/common';
+import { ProdutoService } from './server-produtos/produtos.service';
+
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './navegacao/header/header.component';
@@ -32,6 +34,7 @@ import { ProdutosComponent } from './produtos/lista-produtos.component';
     [RouterModule.forRoot(rootRouterConfig, { useHash: false})]
   ],
   providers: [
+    ProdutoService,
     {provide: APP_BASE_HREF, useValue: '/'}
     ],
   bootstrap: [AppComponent]
